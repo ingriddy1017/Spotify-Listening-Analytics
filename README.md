@@ -58,7 +58,7 @@ spotify-listening-analytics/
 1. Create a Spotify Developer app at https://developer.spotify.com/dashboard
    (Development Mode is fine — just add yourself as a user, and note the
    app owner needs an active Premium subscription per current Spotify rules).
-2. Add `http://127.0.0.1:8888/callback` as a Redirect URI in your app settings.
+2. Add `http://127.0.0.1:3000` as a Redirect URI in your app settings.
 3. Clone this repo and install dependencies:
    ```bash
    pip install -r requirements.txt
