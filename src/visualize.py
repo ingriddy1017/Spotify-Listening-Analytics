@@ -3,6 +3,10 @@ Chart functions. Each one builds a figure and saves it to outputs/figures/,
 and also returns the Figure object so app_streamlit.py can render it inline.
 """
 
+import matplotlib
+
+matplotlib.use("Agg")  # headless backend: we only save files, never open windows
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
